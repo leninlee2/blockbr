@@ -1,0 +1,8 @@
+{
+    "port":{
+        "post":3007
+    },
+    "https":false,
+    "baseurl":"http://localhost:3000",
+    "pathfiles":"C:\\Projects\\InsuredStation\\InsuredStation.Web\\insuredstation\\public"
+}

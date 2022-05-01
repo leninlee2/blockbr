@@ -1,0 +1,23 @@
+create database blockbr;
+use blockbr;
+create table posts(
+    Id varchar(32) NOT NULL,
+    name TEXT,
+    description TEXT,
+    content TEXT,
+    active int,
+    primary key(Id)
+);
+
+alter table posts add createdAt datetime;
+alter table posts add updatedAt datetime;
+alter table posts modify column Id varchar(50);
+
+alter table posts add status int;
+alter table posts add schedule datetime;
+
+alter table posts modify content text;
+
+alter table posts add orderpost int;
+
+--d93dba5d-b9fa-4169-be0c-c7ca967bbc36
